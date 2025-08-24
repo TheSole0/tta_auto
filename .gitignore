@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+*.log
+
+# 데이터/산출물 제외
+*.xlsx
+*.csv
+*.hwp
+*.docx
+*.pptx
+*.pdf
+*.zip
+
+/기록서/
+/zips/
+/GS-C-24-0082 (주)삼우이머션/
+/GS-C-25-0002 (주)YH데이타베이스/
+
+.env

@@ -1,0 +1,28 @@
+# Requirements for the (tta) virtual environment
+# -------------------------------------------------
+# 기본 필수 패키지
+python-docx
+python-dotenv
+Pillow
+pywin32
+tabulate
+pandas
+numpy
+openpyxl
+pyautogui
+
+# 웹/크롤링 자동화
+selenium
+webdriver-manager
+
+# 노트북 실행
+jupyter
+ipykernel
+
+# -------------------------------------------------
+# (옵션) 필요 시 아래 항목을 주석 해제해서 설치하세요
+# pywinauto        # Windows UI 자동화가 필요할 때
+# playwright       # Selenium 대신 Playwright 사용 시
+# pythonnet        # C# ↔ Python 상호운용이 필요할 때
+# notebook         # Jupyter Notebook만 별도로 설치하고 싶을 때
+# jupyterlab       # JupyterLab UI 사용 시
